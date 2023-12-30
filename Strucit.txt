@@ -1,0 +1,71 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "AKIO-STRUCIT", HidePremium = false, SaveConfig = true, IntroText = "AKIO", SelectedTheme = "Divider", })
+
+
+
+OrionLib:MakeNotification({
+	Name = "the correct key",
+	Content = "",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+Tab:AddButton({
+	Name = "Hitbox-10",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/N0SJBST6"))()
+  	end  
+})
+
+
+
+
+Tab:AddButton({
+	Name = "Hitbox-20",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/5FSMT9BG"))()
+  	end  
+})
+
+
+
+Tab:AddButton({
+	Name = "Hitbox 30",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/rNf5WRJ5"))()
+  	end  
+})
+
+
+Tab:AddButton({
+	Name = "Esp dist,xray",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YZeNsKTq"))()
+  	end  
+})
+
+Tab:AddButton({
+	Name = "Esp box",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/5MXX08YR"))()
+  	end  
+})
+
+Tab:AddLabel("CREDITOS-AKIO")
+
+Tab:AddLabel("INSCRIPT")
